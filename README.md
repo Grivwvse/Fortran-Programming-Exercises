@@ -65,7 +65,7 @@ Fortran Programming Exercises that i made in SPB PU
   <p1><u>Регулярный доступ к памяти  </u> - осуществляется перебором элементов массива по порядку (перебор элементов массива или иной другой структуры последовательно так как элементы распологаются в оперативной памяти).</p1>
 
   <p1>В оперативной памяти двумерные массивы распологаются следующим образом: </p1>
-  <center><img src="pics/pic2.png" alt="Расположение двумерного массива в оперативной памяти"></center>
+  <center><img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/pic2.png" alt="Расположение двумерного массива в оперативной памяти"></center>
 
   <p1>Очень важно работать с данными используя регуляриный доступ к памяти, поскольку такой подход исколючает "Хеш-промахи" и позволяет легче задействовать векторизацию (О которой насписанно ниже)</p1>
 
@@ -74,7 +74,7 @@ Fortran Programming Exercises that i made in SPB PU
   <p1>Современные процессоры поддерживают такие инструкции как AVX, AVX2, AVX512. Данные инструкции разработанны для веркторизации вычислений что в свою очередь увеличивает производительность системы</p1>
 
   <p1>Пример Архитектуры SIMD (Single Instruction Stream & Multiple Data Stream) до использования векторизации и после</p1>
- <center><img src="pics/pic3.png" alt="Пример Архитектуры SIMD"></center>
+ <center><img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/pic3.png" alt="Пример Архитектуры SIMD"></center>
 
   <p1>Порядок векторизации:</p1>
   <ol>
