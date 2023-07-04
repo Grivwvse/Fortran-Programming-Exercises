@@ -24,9 +24,9 @@ Fortran Programming Exercises that i made in SPB PU
   </style>
  </head>
  <body>
-  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/pics/warning.png" width=20 alt="WARNIONG!">
+  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!">
    <p1>Данный материал может не являтся 100% достоверным источником, поскольку помимо материалла данного мне на лекционных занятиях тут присутствует мое личное понимание этих тем, что может не соответствовать истине!</p1>
-  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/pics/warning.png" width=20 alt="WARNIONG!">
+  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!">
 
   <p1>Страница находиться на стадии разработки<p1>
 
@@ -109,7 +109,13 @@ Fortran Programming Exercises that i made in SPB PU
 
   <p1>Модули (Module)</p1>
   
-    <ol>
+    module NAME
+    ...
+    Contains
+      modular procedures
+    end module
+
+  <ol>
     <li>Описываются в модулях, после оператора "contains"</li>
     <li>Обладают явным интерфейсом</li>
     <li>Имеют доступ ко всем обьектам модуля</li>
@@ -117,7 +123,14 @@ Fortran Programming Exercises that i made in SPB PU
   </ol>
 
   <p1>Головная программа</p1>
-    <ol>
+
+    Program NAME
+    ...
+    Contains
+      internal procedures
+    end 
+
+  <ol>
     <li>Описываются в головной прогрмме, после оператора "contains"</li>
     <li>Обладают явным интерфейсом</li>
     <li>Имеют доступ ко всем обьектам головной программы</li>
@@ -125,7 +138,14 @@ Fortran Programming Exercises that i made in SPB PU
   </ol>
 
   <p1>Внешние процедуры</p1>
-    <ol>
+
+    subroutine or function
+    ...
+    Contains
+      internal procedures
+    end 
+
+  <ol>
     <li>Описываются отдельно от головной программы или в других файлах</li>
     <li>Обладают неявным интерфейсом</li>
     <li>Обмен данными с головной программы происходит посредствам формальных параметров</li>
