@@ -24,9 +24,9 @@ Fortran Programming Exercises that i made in SPB PU
   </style>
  </head>
  <body>
-  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/pics/warning.png" width=20 alt="WARNIONG!">
+  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!">
    <p1>Данный материал может не являтся 100% достоверным источником, поскольку помимо материалла данного мне на лекционных занятиях тут присутствует мое личное понимание этих тем, что может не соответствовать истине!</p1>
-  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/pics/warning.png" width=20 alt="WARNIONG!">
+  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!">
 
   <p1>Страница находиться на стадии разработки<p1>
 
