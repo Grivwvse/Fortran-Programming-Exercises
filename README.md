@@ -24,13 +24,11 @@ Fortran Programming Exercises that i made in SPB PU
   </style>
  </head>
  <body>
-  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!">
-   <p1>Данный материал может не являтся 100% достоверным источником, поскольку помимо материалла данного мне на лекционных занятиях тут присутствует мое личное понимание этих тем, что может не соответствовать истине!</p1>
-  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!">
+  <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!"> <p1>Данный материал может не являтся 100% достоверным источником, поскольку помимо материалла данного мне на лекционных занятиях тут присутствует мое личное понимание этих тем, что может не соответствовать истине!</p1> <img src="https://raw.githubusercontent.com/VAsiaa/Fortran-Programming-Exercises/main/Pics/warning.png" width=20 alt="WARNIONG!">
 
   <p1>Страница находиться на стадии разработки<p1>
 
-  <h2>Практические задания по предмету "Алгоритмизация и программирование"</h2>
+  <h1>Практические задания по предмету "Алгоритмизация и программирование"</h1>
   <p1>Данный предмет был направлени  на освоение созданной инструментальной среды разработки и изучения работы со стандартными стуктурами данных. Основной задачей данного предмета является приобретение студентом необходимых знаний и навыков для эффективного написания алгоритмов</p1>
 
   <p1>Для выполнения поставленных задач была создана следующая инструментальная платформа:</p1>
@@ -155,6 +153,14 @@ Fortran Programming Exercises that i made in SPB PU
  <h2>Чистые Процедуры</h2>
  <p1>Функции никогда не должны обладать побочных эффектом (К примеру изменять глобальные переменные, вместо этого они должны обращатся к глобальным переменным только на чтение)<p1>
 
+    pure real(R_) function Name(args)
+      intent(in)    : args
+      intent(out)   : args
+      intent(inout) : args
+
+      *internal args
+      ...
+    end function Name
   <ol>
     <li>Все формальные параметры функции имеют вид связи «intend(in)»</li>
     <li>Все формальные параметры подпрограмм имеют вид связи intend (in, out или inout)</li>
@@ -163,7 +169,7 @@ Fortran Programming Exercises that i made in SPB PU
 
 
   <hr>
-  <h2>Практические задания по предмету "Алгоритмы и стуктуры данных"</h2>
+  <h1>Практические задания по предмету "Алгоритмы и стуктуры данных"</h1>
  
   <p1>Рассмотрим следующие структуры данных</p1>
 
