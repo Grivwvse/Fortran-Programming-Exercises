@@ -1,0 +1,4 @@
+IVANOV     1980
+Petrov     2001
+Sidorov    2000
+Vasilev    1998
